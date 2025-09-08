@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+header {
+  background-color: aliceblue;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nev {
+  word-spacing: 20px;
+  color: coral;
+  font-size: 20px;
+}
+p {
+  font-size: 20px;
+}
+a {
+  color: coral;
+}
+section {
+  height: 700px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+  .point-one {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: start;
+    padding: 50px;
+    gap: 30px;
+  }
+  .point-two {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
+.main-img {
+  height: 500px;
+  width: 400px;
+  border: 10px solid white;
+  transform: rotate(-3deg);
+}
+button {
+  height: 40px;
+  width: 200px;
+  background-color: coral;
+  border: 1px coral;
+  color: white;
+  font-size: 20px;
+}
+.first-div {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.second-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  .mini-one {
+    background-color: lightblue;
+    border: lightblue;
+    height: 250px;
+    width: 300px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px rgb(188, 186, 186);
+    transition: transform 0.5s ease-in-out;
+  }
+  .mini-one:hover {
+    transform: scale(1.1);
+  }
+
+  .mini-two {
+    background-color: lightblue;
+    border: lightblue;
+    height: 250px;
+    width: 300px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px rgb(186, 184, 184);
+    transition: transform 0.5s ease-in-out;
+  }
+  .mini-two:hover {
+    transform: scale(1.1);
+  }
+
+  .mini-three {
+    background-color: lightblue;
+    border: lightblue;
+    height: 250px;
+    width: 300px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px rgb(184, 181, 181);
+    transition: transform 0.5s ease-in-out;
+  }
+  .mini-three:hover {
+    transform: scale(1.1);
+  }
+}
+.third-div {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  .fourth-div {
+    gap: 40px;
+    display: flex;
+  }
+}
+.custom-icon {
+  background-color: coral;
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-img {
+  height: 300px;
+  width: 250px;
+  transform: rotate(0deg);
+  border: none;
+  box-shadow: 5px 5px 5px rgb(200, 195, 200);
+  transition: 0.5s ease-in-out;
+}
+.first-img:hover {
+  transform: scale(1.09);
+}
+.second-img {
+  height: 300px;
+  width: 250px;
+  transform: rotate(0deg);
+  border: none;
+  box-shadow: 5px 5px rgb(200, 195, 200);
+  transition: 0.5s ease-in-out;
+}
+.second-img:hover {
+  transform: scale(1.09);
+}
+.third-img {
+  height: 300px;
+  width: 250px;
+  transform: rotate(0deg);
+  border: none;
+  box-shadow: 5px 5px rgb(200, 195, 200);
+  transition: transform 0.5s ease-in-out;
+}
+.third-img:hover {
+  transform: scale(1.09);
+}
+.fifth-div {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  .sixth-div {
+    display: flex;
+    gap: 40px;
+  }
+  .ninth-div {
+    display: flex;
+    gap: 10px;
+  }
+  .tenth-div {
+    display: flex;
+    gap: 10px;
+  }
+  .eleventh-div {
+    display: flex;
+    gap: 10px;
+  }
+}
+.customtwo-icon {
+  color: midnightblue;
+  font-size: 20px;
+  gap: 10px;
+}
+
+input {
+  height: 30px;
+  width: 400px;
+}
+.last-div {
+  background-color: whitesmoke;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
